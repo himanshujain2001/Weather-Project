@@ -1,0 +1,39 @@
+body {
+  background-color: #F4B9B8;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 650px;
+  background-image: -webkit-linear-gradient(65deg, #659DBD 50%, #F8fbf8 50%);
+}
+
+.heading {
+  margin-top: 400px;
+  color: #887BB0;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+img {
+  position: absolute;
+  left: 450px;
+  top: 15px;
+  z-index: -1;
+}
+
+@media (max-width:799px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  img {
+    display:block;
+    margin:0 auto;
+  }
+}

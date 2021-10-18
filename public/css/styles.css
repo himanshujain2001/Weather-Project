@@ -1,0 +1,51 @@
+/* html,
+ body {
+  height: 100%;
+} */
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #EFE7BC;
+  min-height: 650px;
+  background-image: -webkit-linear-gradient(65deg, #659DBD 50%, #FBEEC1 50%);
+}
+
+.weather {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  font-weight: 400;
+}
+
+.h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #67595E;
+}
+
+.form-control {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.weather .input:focus-within {
+  z-index: 2;
+}
+
+.input{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-bottom: 0;
+}
