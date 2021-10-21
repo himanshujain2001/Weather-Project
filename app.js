@@ -5,6 +5,7 @@ const app=express();
 const https=require("https");
 const bodyParser=require("body-parser");
 const ejs = require('ejs');
+require('dotenv').config();
 const port=3000;
 
 app.set('view engine', 'ejs');
@@ -18,7 +19,7 @@ res.render("list");
 
 app.post("/",function(req,res){
   const sheher=req.body.CityName;
-  const api="855a10c64371483752726aa973d37554";
+  const api=process.env.API;
   const url="https://api.openweathermap.org/data/2.5/weather?q="+sheher+"&units=metric&appid="+api;
 
   https.get(url,function(response){

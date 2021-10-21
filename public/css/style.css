@@ -18,8 +18,8 @@ body {
 
 img {
   filter: drop-shadow(8px 8px 10px gray);
-  margin-top: -80px;
-  margin-right: -550px;
+  margin-top: -70px;
+  margin-right: -450px;
 }
 
 .button {
@@ -32,7 +32,7 @@ img {
     text-align: center;
   }
 
-  h2 {
+  h3 {
     text-align: center;
   }
 
