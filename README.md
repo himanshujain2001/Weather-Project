@@ -1,5 +1,5 @@
 # Weather-Project
-This website tells you about weather of location you have entered.
+This Project tells you about weather of location around the world.
 
 ### Languages Used
 - HTML
