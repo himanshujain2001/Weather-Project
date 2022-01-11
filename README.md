@@ -10,3 +10,4 @@ This Project tells you about weather of any location which you want to know.
 
 ### API Used
 - open weather map API
+
