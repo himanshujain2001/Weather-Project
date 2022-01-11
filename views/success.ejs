@@ -10,16 +10,19 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
     <!-- Font Family -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1 class="heading">The temperature of <%=query%> is <%=temps%> °C</h1>
+    <h1 class="heading">The temperature of <%=query%> on <%=month%> is <%=temps%> °C</h1>
     <h3 class="paragraph">The weather is <%=weatherDescription%></h3>
     <img class="image" src="<%=imageURL%>">
 
     <form action="/success" method="post">
-      <button class="btn btn-lg btn-success button" type="submit" name="CheckForAnotherCity">Check For Another City</button>
+      <button class="btn btn-lg btn-success button" type="submit" name="CheckForAnotherCity">Check For Another Location</button>
     </form>
 
   </body>

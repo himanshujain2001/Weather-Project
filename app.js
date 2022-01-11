@@ -26,11 +26,14 @@ app.post("/",function(req,res){
     response.on("data",function(data){
       if(response.statusCode===200){
         const weatherData=JSON.parse(data);
+        let options = { month: 'long', day: 'numeric' };
+        let date=new Date();
+        let day=date.toLocaleDateString("en-US",options);
         const garmi=weatherData.main.temp;
         const mausam=weatherData.weather[0].description;
         const icon=weatherData.weather[0].icon;
         const weatherImage="http://openweathermap.org/img/wn/"+icon+"@2x.png";
-         res.render("success",{query:sheher,temps:garmi,weatherDescription:mausam,imageURL:weatherImage});
+         res.render("success",{query:sheher,month:day,temps:garmi,weatherDescription:mausam,imageURL:weatherImage});
       }else{
         res.render("failure");
       }
