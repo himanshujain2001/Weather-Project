@@ -18,7 +18,8 @@
   <body>
    <img src="images/amazondog-modified.png" width="400" height="400">
    <h1 class="heading">Oops!!!</h1>
-   <h2 class="heading2">Please enter valid location.</h2>
+   <h2 class="heading2"><span>"<%=valid%>"</span> is not a valid location.</h2>
+   <h3 class="heading3">Please enter a valid location and try again.</h3>
    <form action="/failure" method="post">
      <button class="btn btn-warning btn-lg button" type="submit" name="tryagain">Try Again</button>
    </form>

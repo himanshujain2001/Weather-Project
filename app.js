@@ -35,7 +35,7 @@ app.post("/",function(req,res){
         const weatherImage="http://openweathermap.org/img/wn/"+icon+"@2x.png";
          res.render("success",{query:sheher,month:day,temps:garmi,weatherDescription:mausam,imageURL:weatherImage});
       }else{
-        res.render("failure");
+        res.render("failure",{valid:sheher});
       }
         });
         });

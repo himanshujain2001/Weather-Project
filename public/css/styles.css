@@ -8,6 +8,7 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
   background-color: #EFE7BC;
   min-height: 650px;
   background-image: -webkit-linear-gradient(65deg, #659DBD 50%, #FBEEC1 50%);
@@ -48,4 +49,8 @@ body {
 .button {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.h3 {
+  color: #fff;
 }
