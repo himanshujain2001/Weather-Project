@@ -1,7 +1,7 @@
 # Weather-Project
 This Project tells about weather conditions of the location for which want to know.
 
-### Languages Used
+### Skills Used
 - HTML
 - CSS
 - EJS
